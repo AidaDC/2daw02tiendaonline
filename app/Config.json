@@ -1,9 +1,9 @@
 {
     "driver":"mysql",
     "dbname":"tienda_online",
-    "dbhost":"localhost",
-    "dbuser":"root",
-    "dbpass":"root",
+    "dbhost":"127.10.201.2:3306",
+    "dbuser":"adminqDiH7r3",
+    "dbpass":"Xfdjp3JLfkH8",
     "app_data":{
         "css":"css/app.css",
         "js":"js/application.js",
