@@ -159,11 +159,12 @@ footer { background-color: #2F73E8; background-repeat: repeat-x; background-posi
 
 #tabla2 tr td { text-align: center; border-collapse: collapse; }
 
+
 @media (max-width: 1024px) { #titulotira { font-size: 2em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 4%; margin-bottom: -2%; }
   #libros > div { -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 50%; }
   #libros > #libro { width: 100%; }
   #libros > #libro > div { width: 20%; }
-  #libros > #libro > #der > #descrip { width: 50%;   margin-top: 65%; }
+  #libros > #libro > #der > #descrip {   width: 100%;  margin-top: 100%; }
   #libros > #libro > #der > #der2 { width: 50%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; margin-left: 0%; color: #000000 !important;   margin-top: 30%}
   #izq > #imagen { margin-left: 32%; }
   #izqp > #imagen { margin-left: 20%; }
@@ -181,9 +182,14 @@ footer { background-color: #2F73E8; background-repeat: repeat-x; background-posi
   #principal #logos { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
   #principal #titulos { -webkit-box-flex: 4; -webkit-flex: 4; -ms-flex: 4; flex: 4; line-height: 100px; }
   #principal #login { -webkit-box-flex: 7; -webkit-flex: 7; -ms-flex: 7; flex: 7; line-height: 100px; }
-  #logs { left: 60%; } }
+  #logs { left: 60%; } 
+.registre2 { padding-top: 3px; padding-right: 3px; margin: auto; color: black; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 10%; margin-bottom: 10%;-webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
 
-@media (max-width: 640px) { #titulotira { font-size: 2em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 2%; margin-bottom: -2%; margin-left: 20%; }
+  #datos { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; width: 50%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; top: 100px; }
+
+  #datos2 { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; width: 50%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; margin-top: 76px; } }}
+
+@media (max-width: 650px) { #titulotira { font-size: 2em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 2%; margin-bottom: -2%; margin-left: 20%; }
   #libros { -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; width: 100%; color: #40B9FF !important; margin-left: -10px; }
   #libros > #libro { width: 100%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   #libros > #libro > div { width: 100%; }
@@ -191,13 +197,13 @@ footer { background-color: #2F73E8; background-repeat: repeat-x; background-posi
   #izq > #imagen { margin-left: 20%; }
   #izqp > #imagen { margin-left: 42%; }
   #librop > #derp > #descrip { width: 100%; margin-left: 20%; margin-top: 2%; }
-  #librocolumnp > #derp { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+   #librop > #derp { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   #librop > #derp > #descripcion { width: 100%; margin-top: 32%; margin-left: -2px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   #librop > #derp > #der2p { width: 100%; margin-top: 2%; }
   #menu { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; display: none; margin-bottom: 60%; }
   #menu > div { width: 100%; background-color: #3349FF; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
   #regs { line-height: 10px; font-size: 10px; margin-left: none; }
-  .breg { margin-left: 2% !important; }
+    .breg {margin-left: 26% !important; }
   #tabla { font-size: 10px; margin-left: -10px; margin-top: 10%; }
   #tabla2 { margin-top: 10%; margin-left: 0px; }
   #detalles { font-size: 10px; margin-left: 0px; border: 1px solid; }
@@ -205,6 +211,11 @@ footer { background-color: #2F73E8; background-repeat: repeat-x; background-posi
   #principal #logos { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
   #principal #titulos { -webkit-box-flex: 3; -webkit-flex: 3; -ms-flex: 3; flex: 3; }
   #principal #login { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; }
-  #logs { left: 0%; } }
+  #logs { left: 0%; }
+  .registre2 { padding-top: 3px; padding-right: 3px; margin: auto; color: black; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 10%; margin-bottom: 10%;-webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+
+  #datos { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; width: 50%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; top: 100px; }
+
+  #datos2 { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; width: 50%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; margin-top: 76px; } }
 
 /*# sourceMappingURL=app.css.map */
