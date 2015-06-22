@@ -13,7 +13,8 @@ foreach($_SESSION['carrito'] as $value)
           <tr><td colspan="2">Precio Total: </td><td>' . $p_final . ' € </td>
           <td>
           <input type="text" style="display:none;" id="precio" name="precio" value="' . $p_final . '"> 
-          <input id="comp" type="submit" value="Realizar la compra" name="enviar" ></form></td></tr>');
+          <input id="comp" type="submit" value="Realizar la compra" name="enviar" ></form>
+          <a id="comp" href="<?='.APP_W."home;?>"'>Seguir Comprando</a></td></tr>');
       $aaa.= '</table>';
       $_SESSION['carrito_final'] = $aaa;
 
